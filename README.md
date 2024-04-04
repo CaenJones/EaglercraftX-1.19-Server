@@ -43,10 +43,10 @@ In order to install plugins, navigate to `server > plugins`. You will need to cl
 
 ## FAQ
 ### Can I still find and craft 1.19 items?
-Yes, you are able to mine ores like netherite and craft things like shields. The items will act normally, however the textures may not match
+Yes, you are able to mine ores like netherite and craft things like shields. The items will act normally, however the textures may not match.
 ### What about mobs? Will they still behave normally?
-Yes, most mobs have been matched to their closest prexisting characters or models with a nametag identifier. Their drops and stats will remain by the 1.19 standard 
+Yes, most mobs have been matched to their closest prexisting characters or models with a nametag identifier. Their drops and stats will remain by the 1.19 standard.
 ### Can I find new naturally generated structures?
-Yes although they may not have matching blocks or layouts
+Yes although they may not have matching blocks or layouts.
 ### Will there continue to be updates?
 Hell yeah!

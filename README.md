@@ -1,7 +1,10 @@
 # EaglercraftX 1.19 Server
 
 ## Introduction
-TBD
+This server is a modified version of the original 1.8.8 eaglercraft server supporting some functionality of minecraft 1.19 please note that some mobs and textures may be missing from the game.
+<br>
+<br>
+This project was made by `@CaenJones` and `@DerpLord3264` as well as credit to the original eaglercraft developers
 
 
 ## System Setup (Linux)

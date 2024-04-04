@@ -1,1 +1,1 @@
-README TBD
+After installation of the server it is important to edit `server.properties` and take the config out of online more by setting it to `false` this way players can connect to the server without an official mojang client 🙂

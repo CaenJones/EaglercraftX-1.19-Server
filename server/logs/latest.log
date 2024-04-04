@@ -1,205 +1,545 @@
-[13:43:12] [ServerMain/INFO]: Building unoptimized datafixer
-[13:43:14] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:43:15] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[13:43:17] [ServerMain/INFO]: Loaded 7 recipes
-[13:43:20] [Server thread/INFO]: Starting minecraft server version 1.19
-[13:43:20] [Server thread/WARN]: ****************************
-[13:43:20] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[13:43:20] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[13:43:20] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[13:43:20] [Server thread/WARN]: ****************************
-[13:43:20] [Server thread/INFO]: Loading properties
-[13:43:20] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
-[13:43:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:43:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:43:20] [Server thread/INFO]: Default game type: SURVIVAL
-[13:43:20] [Server thread/INFO]: Generating keypair
-[13:43:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:43:20] [Server thread/INFO]: Using epoll channel type
-[13:43:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[13:43:20] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[13:43:21] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.9.3
-[13:43:21] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
-[13:43:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[13:43:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[13:43:23] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[13:43:23] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[13:43:23] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.9.2
-[13:43:23] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0
-[13:43:25] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.0.6
-[13:43:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:43:25] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
-[13:43:25] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.0.6
-[13:43:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:43:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:43:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:43:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:43:25] [Server thread/INFO]: Preparing level "world"
-[13:43:25] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:43:25] [Server thread/INFO]: View Distance: 10
-[13:43:25] [Server thread/INFO]: Simulation Distance: 10
-[13:43:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:43:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:43:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:43:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:43:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:43:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:43:25] [Server thread/INFO]: Mob Spawn Range: 4
-[13:43:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:43:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[13:43:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[13:43:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:43:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[13:43:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:43:25] [Server thread/INFO]: Max TNT Explosions: 100
-[13:43:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:43:26] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:43:26] [Server thread/INFO]: View Distance: 10
-[13:43:26] [Server thread/INFO]: Simulation Distance: 10
-[13:43:26] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:43:26] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:43:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:43:26] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:43:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:43:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:43:26] [Server thread/INFO]: Mob Spawn Range: 4
-[13:43:26] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:43:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[13:43:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[13:43:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:43:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[13:43:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:43:26] [Server thread/INFO]: Max TNT Explosions: 100
-[13:43:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:43:40] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:43:40] [Server thread/INFO]: View Distance: 10
-[13:43:40] [Server thread/INFO]: Simulation Distance: 10
-[13:43:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:43:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:43:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:43:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[13:43:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:43:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:43:40] [Server thread/INFO]: Mob Spawn Range: 4
-[13:43:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:43:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Potato Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Vine Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[13:43:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[13:43:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:43:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[13:43:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[13:43:40] [Server thread/INFO]: Max TNT Explosions: 100
-[13:43:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:43:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:43:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:43:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:43:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:43:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:43:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:43:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:43:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:43:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:43:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:43:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:43:45] [Server thread/INFO]: Time elapsed: 4978 ms
-[13:43:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:43:46] [Server thread/INFO]: Preparing spawn area: 0%
-[13:43:46] [Server thread/INFO]: Preparing spawn area: 0%
-[13:43:46] [Server thread/INFO]: Preparing spawn area: 0%
-[13:43:47] [Server thread/INFO]: Preparing spawn area: 0%
-[13:43:47] [Server thread/INFO]: Preparing spawn area: 0%
-[13:43:48] [Server thread/INFO]: Preparing spawn area: 0%
-[13:43:48] [Server thread/INFO]: Preparing spawn area: 0%
-[13:43:49] [Server thread/INFO]: Preparing spawn area: 0%
-[13:43:49] [Server thread/INFO]: Time elapsed: 3560 ms
-[13:43:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:43:49] [Server thread/INFO]: Preparing spawn area: 0%
-[13:43:49] [Server thread/INFO]: Preparing spawn area: 0%
-[13:43:50] [Server thread/INFO]: Preparing spawn area: 0%
-[13:43:50] [Server thread/INFO]: Preparing spawn area: 0%
-[13:43:51] [Server thread/INFO]: Time elapsed: 1714 ms
-[13:43:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
-[13:43:51] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19 (759)
-[13:43:51] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
-[13:43:51] [Server thread/INFO]: Running delayed init tasks
-[13:43:51] [Server thread/INFO]: Done (31.470s)! For help, type "help"
-[13:43:51] [Server thread/INFO]: Timings Reset
-[13:43:51] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[13:44:01] [Server thread/INFO]: Checking version, please wait...
-[13:44:01] [Thread-10/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
-You are running the latest version
-Previous version: git-Paper-1620 (MC: 1.12.2)
-[13:44:06] [Server thread/INFO]: Stopping server
-[13:44:06] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v3.0.6
-[13:44:06] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
-[13:44:06] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
-[13:44:06] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
-[13:44:06] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[13:44:06] [Server thread/INFO]: Saving players
-[13:44:06] [Server thread/INFO]: Saving worlds
-[13:44:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:44:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:44:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:44:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:44:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:44:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:44:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13:44:43] [Server thread/INFO]: Flushing Chunk IO
-[13:44:43] [Server thread/INFO]: Closing Thread Pool
-[13:44:43] [Server thread/INFO]: Closing Server
+[14:20:37] [ServerMain/INFO]: Building unoptimized datafixer
+[14:20:38] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:20:41] [ServerMain/INFO]: Loaded 7 recipes
+[14:20:47] [Server thread/INFO]: Starting minecraft server version 1.19
+[14:20:47] [Server thread/WARN]: ****************************
+[14:20:47] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[14:20:47] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[14:20:47] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[14:20:47] [Server thread/WARN]: ****************************
+[14:20:47] [Server thread/INFO]: Loading properties
+[14:20:47] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
+[14:20:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:20:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:20:48] [Server thread/INFO]: Default game type: SURVIVAL
+[14:20:48] [Server thread/INFO]: Generating keypair
+[14:20:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:20:48] [Server thread/INFO]: Using epoll channel type
+[14:20:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:20:48] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[14:20:49] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.9.3
+[14:20:49] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[14:20:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:20:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:20:50] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[14:20:50] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[14:20:50] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.9.2
+[14:20:50] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0
+[14:20:52] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v3.0.6
+[14:20:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:20:52] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[14:20:52] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v3.0.6
+[14:20:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:20:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:20:52] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[14:20:52] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[14:20:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:20:52] [Server thread/INFO]: Preparing level "world"
+[14:20:53] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:20:53] [Server thread/INFO]: View Distance: 10
+[14:20:53] [Server thread/INFO]: Simulation Distance: 10
+[14:20:53] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:20:53] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:20:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:20:53] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:20:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:20:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:20:53] [Server thread/INFO]: Mob Spawn Range: 4
+[14:20:53] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:20:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[14:20:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:20:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:20:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:20:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:20:53] [Server thread/INFO]: Max TNT Explosions: 100
+[14:20:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:20:54] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:20:54] [Server thread/INFO]: View Distance: 10
+[14:20:54] [Server thread/INFO]: Simulation Distance: 10
+[14:20:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:20:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:20:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:20:54] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:20:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:20:54] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:20:54] [Server thread/INFO]: Mob Spawn Range: 4
+[14:20:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:20:54] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[14:20:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:20:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:20:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:20:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:20:54] [Server thread/INFO]: Max TNT Explosions: 100
+[14:20:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:21:14] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:21:14] [Server thread/INFO]: View Distance: 10
+[14:21:14] [Server thread/INFO]: Simulation Distance: 10
+[14:21:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:21:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:21:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:21:14] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:21:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:21:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:21:14] [Server thread/INFO]: Mob Spawn Range: 4
+[14:21:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:21:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[14:21:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[14:21:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:21:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[14:21:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:21:14] [Server thread/INFO]: Max TNT Explosions: 100
+[14:21:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:21:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:21:16] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:16] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:16] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:16] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:16] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:17] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:17] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:18] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:18] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:19] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:19] [Server thread/INFO]: Time elapsed: 4923 ms
+[14:21:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:21:20] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:20] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:20] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:21] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:21] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:21] [Server thread/INFO]: Time elapsed: 2008 ms
+[14:21:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:21:21] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:22] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:22] [Server thread/INFO]: Preparing spawn area: 0%
+[14:21:22] [Server thread/INFO]: Time elapsed: 1029 ms
+[14:21:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[14:21:23] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19 (759)
+[14:21:23] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[14:21:23] [Server thread/INFO]: Running delayed init tasks
+[14:21:23] [Server thread/INFO]: Done (36.079s)! For help, type "help"
+[14:21:23] [Server thread/INFO]: Timings Reset
+[14:21:23] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[14:21:23] [User Authenticator #1/INFO]: UUID of player YeelerYeer761 is 7b7ca3d3-894c-3916-a92a-cfea8cfdd6ec
+[14:21:23] [User Authenticator #2/INFO]: UUID of player YeelerYeer761 is 7b7ca3d3-894c-3916-a92a-cfea8cfdd6ec
+[14:21:23] [User Authenticator #3/INFO]: UUID of player YeelerYeer761 is 7b7ca3d3-894c-3916-a92a-cfea8cfdd6ec
+[14:21:24] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Custom worlds heights are NOT SUPPORTED for 1.16 players and older and may lead to errors!
+[14:21:24] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] You have min/max set to -64/256
+[14:21:24] [Server thread/INFO]: YeelerYeer761 joined the game
+[14:21:24] [Server thread/INFO]: YeelerYeer761[/[0:0:0:0:0:0:0:1]:44934] logged in with entity id 1 at ([world]187.5, 67.0, 199.5)
+[14:21:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@120fbbcd[id=7b7ca3d3-894c-3916-a92a-cfea8cfdd6ec,name=YeelerYeer761,properties={textures=[com.mojang.authlib.properties.Property@31b780b6], isEaglerPlayer=[com.mojang.authlib.properties.Property@74b508e4]},legacy=false] (/[0:0:0:0:0:0:0:1]:55984) lost connection: Disconnected
+[14:21:24] [Server thread/INFO]: YeelerYeer761 lost connection: You logged in from another location
+[14:21:24] [Server thread/INFO]: YeelerYeer761 left the game
+[14:21:24] [Netty Epoll Server IO #2/WARN]: [ViaVersion] Duplicate UUID on frontend connection! (7b7ca3d3-894c-3916-a92a-cfea8cfdd6ec)
+[14:21:24] [Server thread/INFO]: YeelerYeer761 joined the game
+[14:21:24] [Server thread/INFO]: YeelerYeer761[/[0:0:0:0:0:0:0:1]:54442] logged in with entity id 2 at ([world]187.5, 67.0, 199.5)
+[14:21:26] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:21:26] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:21:26] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:21:26] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:21:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5022ms or 100 ticks behind
+[14:21:56] [Server thread/INFO]: YeelerYeer761 lost connection: Timed out
+[14:21:56] [Server thread/INFO]: YeelerYeer761 left the game
+[14:21:57] [User Authenticator #3/INFO]: UUID of player YeelerYeer761 is 7b7ca3d3-894c-3916-a92a-cfea8cfdd6ec
+[14:21:57] [Server thread/INFO]: YeelerYeer761 joined the game
+[14:21:57] [Server thread/INFO]: YeelerYeer761[/[0:0:0:0:0:0:0:1]:43520] logged in with entity id 324 at ([world]187.5, 67.0, 199.5)
+[14:21:57] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:21:57] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:21:57] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:21:57] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:22:31] [Async Chat Thread - #0/INFO]: <YeelerYeer761> omg it works
+[14:22:39] [Server thread/INFO]: YeelerYeer761 lost connection: Disconnected
+[14:22:39] [Server thread/INFO]: YeelerYeer761 left the game
+[14:22:40] [User Authenticator #3/INFO]: UUID of player DeevYeeler2999 is 7e5b12a4-7457-3638-bbae-eadd53234669
+[14:22:40] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:22:40] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:22:40] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:22:40] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:22:40] [Server thread/INFO]: DeevYeeler2999 joined the game
+[14:22:40] [Server thread/INFO]: DeevYeeler2999[/[0:0:0:0:0:0:0:1]:57538] logged in with entity id 450 at ([world]27.748272795165082, 59.0, 167.5790142845921)
+[14:23:17] [User Authenticator #3/INFO]: UUID of player miwi is c706c22d-7a4a-3b42-ad14-c934e67b14d0
+[14:23:17] [Server thread/INFO]: miwi joined the game
+[14:23:17] [Server thread/INFO]: miwi[/[0:0:0:0:0:0:0:1]:44322] logged in with entity id 689 at ([world]187.5, 65.0, 197.5)
+[14:23:17] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:23:17] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:23:17] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:23:17] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:23:22] [Async Chat Thread - #0/INFO]: <DeevYeeler2999> miwi there is a mesa!
+[14:23:29] [Async Chat Thread - #0/INFO]: <miwi> not getting good fps tho
+[14:23:35] [Async Chat Thread - #0/INFO]: <DeevYeeler2999> I have 41 rn
+[14:23:51] [Async Chat Thread - #0/INFO]: <miwi> give me op rq
+[14:23:56] [Async Chat Thread - #0/INFO]: <DeevYeeler2999> ha no
+[14:24:02] [Async Chat Thread - #0/INFO]: <DeevYeeler2999> why do youwan?
+[14:24:05] [Async Chat Thread - #0/INFO]: <miwi> i need to test items
+[14:24:11] [Async Chat Thread - #0/INFO]: <miwi> also im dying
+[14:24:13] [Server thread/INFO]: miwi was shot by Skeleton
+[14:24:18] [Async Chat Thread - #0/INFO]: <miwi> give me creative
+[14:24:24] [Async Chat Thread - #0/INFO]: <DeevYeeler2999> fine
+[14:24:36] [Server thread/INFO]: Made miwi a server operator
+[14:24:41] [Async Chat Thread - #0/INFO]: <DeevYeeler2999> done
+[14:24:42] [Server thread/INFO]: miwi issued server command: /gamemode c
+[14:24:46] [Server thread/INFO]: miwi issued server command: /gamemode creative
+[14:24:46] [Server thread/INFO]: [miwi: Set own game mode to Creative Mode]
+[14:24:46] [Async Chat Thread - #0/INFO]: <DeevYeeler2999> you have op
+[14:24:50] [Server thread/INFO]: DeevYeeler2999 issued server command: /tpa miwi
+[14:24:59] [Server thread/INFO]: DeevYeeler2999 issued server command: /
+[14:25:09] [Server thread/INFO]: miwi has made the advancement [Monster Hunter]
+[14:25:14] [Server thread/INFO]: DeevYeeler2999 was shot by Skeleton
+[14:25:19] [Server thread/INFO]: miwi lost connection: Disconnected
+[14:25:19] [Server thread/INFO]: miwi left the game
+[14:25:49] [Server thread/INFO]: DeevYeeler2999 was slain by Zombie
+[14:26:19] [User Authenticator #4/INFO]: UUID of player miwi is c706c22d-7a4a-3b42-ad14-c934e67b14d0
+[14:26:19] [Server thread/INFO]: miwi joined the game
+[14:26:19] [Server thread/INFO]: miwi[/[0:0:0:0:0:0:0:1]:60102] logged in with entity id 1642 at ([world]159.18165198161066, 67.0, 178.71979240811896)
+[14:26:19] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:26:19] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:26:19] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:26:19] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:26:25] [Server thread/INFO]: DeevYeeler2999 issued server command: /ver
+[14:26:59] [Server thread/INFO]: DeevYeeler2999 was shot by Skeleton
+[14:27:47] [Server thread/INFO]: DeevYeeler2999 was shot by Skeleton
+[14:28:05] [Server thread/INFO]: DeevYeeler2999 was slain by Spider
+[14:28:17] [Server thread/INFO]: miwi has made the advancement [Cover Me with Diamonds]
+[14:29:16] [User Authenticator #5/INFO]: UUID of player A_Dude124 is da43330c-d4af-3822-9478-4887016fdec9
+[14:29:16] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:29:16] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:29:16] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:29:16] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:29:16] [Server thread/INFO]: A_Dude124 joined the game
+[14:29:16] [Server thread/INFO]: A_Dude124[/[0:0:0:0:0:0:0:1]:36512] logged in with entity id 2016 at ([world]184.5, 67.0, 208.5)
+[14:29:19] [Server thread/INFO]: DeevYeeler2999 was slain by miwi
+[14:29:38] [Server thread/INFO]: A_Dude124 was slain by Zombie
+[14:29:57] [Server thread/INFO]: A_Dude124 lost connection: Timed out
+[14:29:57] [Server thread/INFO]: A_Dude124 left the game
+[14:30:08] [Server thread/INFO]: DeevYeeler2999 issued server command: /summon tnt
+[14:30:20] [Server thread/INFO]: miwi issued server command: /tp deev
+[14:30:27] [Server thread/INFO]: miwi issued server command: /tp @e
+[14:30:29] [User Authenticator #6/INFO]: UUID of player A_Dude124 is da43330c-d4af-3822-9478-4887016fdec9
+[14:30:29] [Server thread/INFO]: A_Dude124 joined the game
+[14:30:29] [Server thread/INFO]: A_Dude124[/[0:0:0:0:0:0:0:1]:33398] logged in with entity id 2211 at ([world]184.69999998807907, 67.0, 208.16346875)
+[14:30:29] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:30:29] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:30:29] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:30:29] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:30:34] [Server thread/INFO]: miwi issued server command: /tp @e miwi
+[14:30:34] [Server thread/INFO]: [miwi: Teleported 282 entities to miwi]
+[14:30:42] [Server thread/INFO]: DeevYeeler2999 was slain by Zombie
+[14:30:52] [Server thread/INFO]: Banned miwi: Banned by an operator.
+[14:30:52] [Server thread/INFO]: miwi lost connection: You are banned from this server
+[14:30:52] [Server thread/INFO]: miwi left the game
+[14:30:59] [User Authenticator #6/INFO]: UUID of player bluecherry_ is 2cd59c51-67c2-3336-bb19-566d723b0085
+[14:30:59] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:30:59] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:30:59] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:30:59] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:30:59] [Server thread/INFO]: bluecherry_ joined the game
+[14:30:59] [Server thread/INFO]: bluecherry_[/[0:0:0:0:0:0:0:1]:36594] logged in with entity id 2587 at ([world]185.5, 81.0, 214.5)
+[14:31:00] [Server thread/INFO]: A_Dude124 lost connection: Timed out
+[14:31:00] [Server thread/INFO]: A_Dude124 left the game
+[14:31:07] [Server thread/INFO]: No player was found
+[14:31:15] [User Authenticator #6/INFO]: UUID of player miwi is c706c22d-7a4a-3b42-ad14-c934e67b14d0
+[14:31:15] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@7bfdd393[id=c706c22d-7a4a-3b42-ad14-c934e67b14d0,name=miwi,properties={textures=[com.mojang.authlib.properties.Property@89c5a59], isEaglerPlayer=[com.mojang.authlib.properties.Property@487fbac0]},legacy=false] (/[0:0:0:0:0:0:0:1]:58234): You are banned from this server.
+Reason: Banned by an operator.
+[14:31:15] [Server thread/INFO]: com.mojang.authlib.GameProfile@7bfdd393[id=c706c22d-7a4a-3b42-ad14-c934e67b14d0,name=miwi,properties={textures=[com.mojang.authlib.properties.Property@89c5a59], isEaglerPlayer=[com.mojang.authlib.properties.Property@487fbac0]},legacy=false] (/[0:0:0:0:0:0:0:1]:58234) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[14:32:01] [Server thread/INFO]: Made bluecherry a server operator
+[14:32:02] [User Authenticator #6/INFO]: UUID of player A_Dude124__1_19 is ac60dba7-e564-358d-87ea-540f1fe53928
+[14:32:02] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:32:02] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:32:02] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:32:02] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:32:02] [Server thread/INFO]: A_Dude124__1_19 joined the game
+[14:32:02] [Server thread/INFO]: A_Dude124__1_19[/[0:0:0:0:0:0:0:1]:34538] logged in with entity id 2700 at ([world]187.5, 67.0, 202.5)
+[14:32:04] [User Authenticator #6/INFO]: UUID of player miwifruit is 5102e659-7ff3-39a1-b13b-2417fadaef41
+[14:32:04] [Server thread/INFO]: miwifruit joined the game
+[14:32:04] [Server thread/INFO]: miwifruit[/[0:0:0:0:0:0:0:1]:34544] logged in with entity id 2705 at ([world]180.5, 69.0, 210.5)
+[14:32:04] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:32:04] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:32:04] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:32:04] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:32:05] [Server thread/INFO]: Made bluecherry_ a server operator
+[14:32:12] [Server thread/INFO]: bluecherry_ issued server command: /gamemode c
+[14:32:16] [Async Chat Thread - #1/INFO]: <miwifruit> hi guys
+[14:32:17] [Server thread/INFO]: bluecherry_ issued server command: /gamemode creative
+[14:32:17] [Server thread/INFO]: [bluecherry_: Set own game mode to Creative Mode]
+[14:32:29] [Server thread/INFO]: A_Dude124__1_19 lost connection: Disconnected
+[14:32:29] [Server thread/INFO]: A_Dude124__1_19 left the game
+[14:32:40] [User Authenticator #6/INFO]: UUID of player Stove16 is b34cd84b-44b2-3897-97fa-308f6daf6368
+[14:32:40] [Server thread/INFO]: Stove16 joined the game
+[14:32:40] [Server thread/INFO]: Stove16[/[0:0:0:0:0:0:0:1]:55722] logged in with entity id 2836 at ([world]191.5, 67.0, 200.5)
+[14:32:40] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:32:40] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:32:40] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:32:40] [Netty Epoll Server IO #2/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:32:41] [Server thread/INFO]: bluecherry_ issued server command: /give @p command_block
+[14:32:41] [Server thread/INFO]: [bluecherry_: Gave 1 [Command Block] to bluecherry_]
+[14:32:49] [Async Chat Thread - #1/INFO]: <Stove16> eee
+[14:32:50] [User Authenticator #6/INFO]: UUID of player Zkdoge is 115bb4d3-dafb-316e-a556-1230e3956a59
+[14:32:51] [Server thread/INFO]: Zkdoge joined the game
+[14:32:51] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:32:51] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:32:51] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:32:51] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:32:51] [Server thread/INFO]: Zkdoge[/[0:0:0:0:0:0:0:1]:54764] logged in with entity id 2859 at ([world]187.5, 67.0, 202.5)
+[14:32:59] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Client send MC|AdvCmd custom payload to update command block, weird!
+[14:33:09] [Async Chat Thread - #1/INFO]: <Stove16> cheese
+[14:33:25] [Server thread/INFO]: DeevYeeler2999 was shot by Pillager
+[14:33:35] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] Client send MC|AdvCmd custom payload to update command block, weird!
+[14:33:40] [Server thread/INFO]: Zkdoge was slain by miwifruit
+[14:33:52] [Server thread/INFO]: Banned miwifruit: Banned by an operator.
+[14:33:52] [Server thread/INFO]: miwifruit lost connection: You are banned from this server
+[14:33:52] [Server thread/INFO]: miwifruit left the game
+[14:33:54] [User Authenticator #7/INFO]: UUID of player A_Dude124 is da43330c-d4af-3822-9478-4887016fdec9
+[14:33:54] [Server thread/INFO]: Zkdoge has made the advancement [Stone Age]
+[14:33:54] [Server thread/INFO]: A_Dude124 joined the game
+[14:33:54] [Server thread/INFO]: A_Dude124[/[0:0:0:0:0:0:0:1]:56982] logged in with entity id 3038 at ([world]184.69999998807907, 67.0, 208.16346875)
+[14:33:54] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:33:54] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:33:54] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:33:54] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:33:56] [Async Chat Thread - #1/INFO]: <bluecherry_> OOOO SHIT
+[14:34:02] [Async Chat Thread - #1/INFO]: <bluecherry_> OOOO SHIT
+[14:34:12] [Server thread/INFO]: bluecherry_ issued server command: /ban miwifruit
+[14:34:17] [Async Chat Thread - #1/INFO]: <bluecherry_> fuck yoyu
+[14:34:24] [Server thread/INFO]: bluecherry_ issued server command: /tp zkdoge
+[14:34:24] [Server thread/INFO]: [bluecherry_: Teleported bluecherry_ to Zkdoge]
+[14:34:37] [Server thread/INFO]: Stove16 has made the advancement [Monster Hunter]
+[14:34:53] [Server thread/INFO]: bluecherry_ has made the advancement [Acquire Hardware]
+[14:34:59] [User Authenticator #8/INFO]: UUID of player miwifruity is f64351a8-2fc5-3ee6-8809-8542805ea3cc
+[14:34:59] [Server thread/INFO]: miwifruity joined the game
+[14:34:59] [Server thread/INFO]: miwifruity[/[0:0:0:0:0:0:0:1]:40826] logged in with entity id 3249 at ([world]183.5, 66.0, 196.5)
+[14:34:59] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:34:59] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:34:59] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:34:59] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:35:09] [Server thread/INFO]: Stove16 was shot by Pillager
+[14:35:23] [Async Chat Thread - #2/INFO]: <miwifruity> why cant i hit you
+[14:35:24] [Async Chat Thread - #2/INFO]: <miwifruity> hax
+[14:35:26] [Async Chat Thread - #2/INFO]: <bluecherry_> no
+[14:35:28] [Async Chat Thread - #2/INFO]: <bluecherry_> creative
+[14:35:31] [Async Chat Thread - #2/INFO]: <miwifruity> lol
+[14:35:34] [Server thread/INFO]: bluecherry_ issued server command: /give @p netherite_sword
+[14:35:34] [Server thread/INFO]: [bluecherry_: Gave 1 [Netherite Sword] to bluecherry_]
+[14:35:37] [Async Chat Thread - #2/INFO]: <miwifruity> gimme stuff
+[14:35:39] [Server thread/INFO]: miwifruity was slain by bluecherry_
+[14:35:39] [Async Chat Thread - #2/INFO]: <miwifruity> for 1v1
+[14:35:40] [Async Chat Thread - #2/INFO]: <bluecherry_> no
+[14:35:49] [Async Chat Thread - #2/INFO]: <miwifruity> admin abuse
+[14:35:50] [Async Chat Thread - #2/INFO]: <DeevYeeler2999> d
+[14:35:52] [Server thread/INFO]: miwifruity was slain by bluecherry_
+[14:35:56] [Server thread/INFO]: Zkdoge has made the advancement [Monster Hunter]
+[14:36:05] [User Authenticator #9/INFO]: UUID of player The_boi_noodle is 6557fe19-1494-330e-b2e5-3d4b6bb058cb
+[14:36:05] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:36:05] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:36:05] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:36:05] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:36:05] [Server thread/INFO]: The_boi_noodle joined the game
+[14:36:05] [Server thread/INFO]: The_boi_noodle[/[0:0:0:0:0:0:0:1]:54246] logged in with entity id 3451 at ([world]193.5, 69.0, 207.5)
+[14:36:15] [Server thread/INFO]: The_boi_noodle issued server command: /login efioanowi
+[14:36:29] [Server thread/INFO]: miwifruity has made the advancement [Acquire Hardware]
+[14:36:37] [Server thread/INFO]: DeevYeeler2999 was shot by Pillager
+[14:36:38] [Server thread/INFO]: The_boi_noodle lost connection: Disconnected
+[14:36:38] [Server thread/INFO]: The_boi_noodle left the game
+[14:36:42] [Server thread/INFO]: A_Dude124 has made the advancement [Stone Age]
+[14:37:03] [Server thread/INFO]: DeevYeeler2999 lost connection: Disconnected
+[14:37:03] [Server thread/INFO]: DeevYeeler2999 left the game
+[14:37:03] [Server thread/INFO]: Stove16 has made the advancement [Stone Age]
+[14:37:03] [User Authenticator #9/INFO]: UUID of player The_boi_noodle is 6557fe19-1494-330e-b2e5-3d4b6bb058cb
+[14:37:04] [Server thread/INFO]: The_boi_noodle joined the game
+[14:37:04] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:37:04] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:37:04] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:37:04] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:37:04] [Server thread/INFO]: The_boi_noodle[/[0:0:0:0:0:0:0:1]:34568] logged in with entity id 3673 at ([world]201.69999998807907, 74.0, 206.88075712548635)
+[14:37:05] [Server thread/INFO]: A_Dude124 has made the advancement [Getting an Upgrade]
+[14:37:11] [Server thread/INFO]: The_boi_noodle lost connection: Disconnected
+[14:37:11] [Server thread/INFO]: The_boi_noodle left the game
+[14:37:15] [Async Chat Thread - #3/INFO]: <miwifruity> go
+[14:37:16] [Server thread/INFO]: bluecherry_ issued server command: /give @p netherite_ingot
+[14:37:16] [Server thread/INFO]: [bluecherry_: Gave 1 [Netherite Ingot] to bluecherry_]
+[14:37:26] [Async Chat Thread - #3/INFO]: <miwifruity> omg
+[14:37:26] [Async Chat Thread - #3/INFO]: <bluecherry_> block
+[14:37:38] [Server thread/INFO]: Gave 1 [Netherite Sword] to A_Dude124
+[14:37:39] [User Authenticator #9/INFO]: UUID of player The_boi_noodle_ is 5bc12d4c-d1fa-3118-9561-8ee7516f4701
+[14:37:39] [Server thread/INFO]: The_boi_noodle_ joined the game
+[14:37:39] [Server thread/INFO]: The_boi_noodle_[/[0:0:0:0:0:0:0:1]:60924] logged in with entity id 3774 at ([world]187.5, 67.0, 201.5)
+[14:37:39] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:37:39] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:37:39] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:37:39] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:37:39] [Server thread/INFO]: Zkdoge has made the advancement [Getting an Upgrade]
+[14:37:41] [Server thread/INFO]: Stove16 has made the advancement [Getting an Upgrade]
+[14:37:46] [Server thread/INFO]: Gave 1 [Netherite Sword] to A_Dude124
+[14:37:48] [Server thread/INFO]: The_boi_noodle_ lost connection: Disconnected
+[14:37:48] [Server thread/INFO]: The_boi_noodle_ left the game
+[14:37:51] [Server thread/INFO]: bluecherry_ has made the advancement [Suit Up]
+[14:37:55] [Server thread/INFO]: miwifruity was slain by A_Dude124
+[14:38:03] [Server thread/INFO]: A_Dude124 was slain by bluecherry_
+[14:38:04] [Server thread/INFO]: bluecherry_ has made the advancement [Stone Age]
+[14:38:05] [Server thread/INFO]: bluecherry_ has made the advancement [Getting an Upgrade]
+[14:38:13] [Server thread/INFO]: Made A_Dude124 a server operator
+[14:38:16] [Server thread/INFO]: A_Dude124 issued server command: /gamemode c
+[14:38:18] [Server thread/INFO]: miwifruity has made the advancement [Suit Up]
+[14:38:21] [Server thread/INFO]: A_Dude124 issued server command: /gamemode creative
+[14:38:21] [Server thread/INFO]: [A_Dude124: Set own game mode to Creative Mode]
+[14:38:33] [Server thread/INFO]: A_Dude124 issued server command: /tp miwifruity Zkdoge
+[14:38:33] [Server thread/INFO]: [A_Dude124: Teleported miwifruity to Zkdoge]
+[14:38:36] [Server thread/INFO]: bluecherry_ issued server command: /give Stove16 cooked_beef 64
+[14:38:36] [Server thread/INFO]: [bluecherry_: Gave 64 [Steak] to Stove16]
+[14:38:40] [Server thread/INFO]: A_Dude124 issued server command: /tp miwifruity A_
+[14:38:41] [Server thread/INFO]: Zkdoge was slain by miwifruity
+[14:38:41] [Server thread/INFO]: bluecherry_ issued server command: /give Stove16 netherite_sword
+[14:38:41] [Server thread/INFO]: [bluecherry_: Gave 1 [Netherite Sword] to Stove16]
+[14:38:42] [Server thread/INFO]: A_Dude124 issued server command: /tp miwifruity A_Dude124
+[14:38:42] [Server thread/INFO]: [A_Dude124: Teleported miwifruity to A_Dude124]
+[14:38:43] [User Authenticator #10/INFO]: UUID of player NoodlePie is ddc78029-dfd1-3434-bad2-5f13bd9af045
+[14:38:43] [Server thread/INFO]: NoodlePie joined the game
+[14:38:43] [Server thread/INFO]: NoodlePie[/[0:0:0:0:0:0:0:1]:58804] logged in with entity id 4077 at ([world]178.5, 67.0, 201.5)
+[14:38:43] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:38:43] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:38:43] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:38:43] [Netty Epoll Server IO #3/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:38:44] [Server thread/INFO]: No entity was found
+[14:38:48] [Server thread/INFO]: A_Dude124 issued server command: /tp miwifruity A_Dude124
+[14:38:48] [Server thread/INFO]: [A_Dude124: Teleported miwifruity to A_Dude124]
+[14:38:49] [Server thread/INFO]: bluecherry_ issued server command: /give Stove16 netherite_chestplate
+[14:38:49] [Server thread/INFO]: [bluecherry_: Gave 1 [Netherite Chestplate] to Stove16]
+[14:38:49] [Server thread/INFO]: miwifruity fell from a high place
+[14:38:49] [Server thread/INFO]: A_Dude124 issued server command: /tp miwifruity A_Dude124
+[14:38:49] [Server thread/INFO]: [A_Dude124: Teleported miwifruity to A_Dude124]
+[14:38:51] [Server thread/INFO]: miwifruity fell out of the world
+[14:38:51] [Server thread/INFO]: Killed miwifruity
+[14:38:53] [Server thread/INFO]: bluecherry_ issued server command: /give Stove16 netherite_helmet
+[14:38:53] [Server thread/INFO]: [bluecherry_: Gave 1 [Netherite Helmet] to Stove16]
+[14:38:56] [Server thread/INFO]: bluecherry_ issued server command: /give Stove16 netherite_boots
+[14:38:56] [Server thread/INFO]: [bluecherry_: Gave 1 [Netherite Boots] to Stove16]
+[14:38:59] [Server thread/INFO]: Made A_Dude124 no longer a server operator
+[14:38:59] [Server thread/INFO]: bluecherry_ issued server command: /give Stove16 netherite_leggings
+[14:38:59] [Server thread/INFO]: Stove16 has completed the challenge [Cover Me in Debris]
+[14:38:59] [Server thread/INFO]: [bluecherry_: Gave 1 [Netherite Leggings] to Stove16]
+[14:39:08] [Server thread/INFO]: No entity was found
+[14:39:10] [Server thread/INFO]: bluecherry_ issued server command: /tp Stove16 miwifruity
+[14:39:10] [Server thread/INFO]: [bluecherry_: Teleported Stove16 to miwifruity]
+[14:39:14] [Server thread/INFO]: A_Dude124 fell out of the world
+[14:39:14] [Server thread/INFO]: Killed A_Dude124
+[14:39:14] [Server thread/INFO]: NoodlePie lost connection: Timed out
+[14:39:14] [Server thread/INFO]: NoodlePie left the game
+[14:39:18] [Server thread/INFO]: A_Dude124 fell out of the world
+[14:39:18] [Server thread/INFO]: Killed A_Dude124
+[14:39:18] [Server thread/INFO]: Killed A_Dude124
+[14:39:19] [Server thread/INFO]: Killed A_Dude124
+[14:39:19] [Server thread/INFO]: Killed A_Dude124
+[14:39:19] [Server thread/INFO]: Killed A_Dude124
+[14:39:20] [Server thread/INFO]: No entity was found
+[14:39:20] [Server thread/INFO]: No entity was found
+[14:39:20] [Server thread/INFO]: No entity was found
+[14:39:20] [Server thread/INFO]: No entity was found
+[14:39:22] [Server thread/INFO]: A_Dude124 fell out of the world
+[14:39:22] [Server thread/INFO]: Killed A_Dude124
+[14:39:25] [Server thread/INFO]: A_Dude124 fell out of the world
+[14:39:25] [Server thread/INFO]: Killed A_Dude124
+[14:39:33] [Server thread/INFO]: bluecherry_ issued server command: /clear miwifruit
+[14:39:38] [Server thread/INFO]: bluecherry_ issued server command: /clear miwifruity
+[14:39:38] [Server thread/INFO]: [bluecherry_: Removed 4 items from player miwifruity]
+[14:39:41] [Server thread/INFO]: miwifruity was slain by Stove16
+[14:39:47] [Async Chat Thread - #4/INFO]: <A_Dude124> .give
+[14:39:50] [Server thread/INFO]: A_Dude124 issued server command: /give
+[14:40:01] [Server thread/INFO]: miwifruity was slain by Stove16
+[14:40:06] [Server thread/INFO]: bluecherry_ issued server command: /give A_Dude124 netherite_sword
+[14:40:06] [Server thread/INFO]: [bluecherry_: Gave 1 [Netherite Sword] to A_Dude124]
+[14:40:10] [User Authenticator #11/INFO]: UUID of player NoodlePie is ddc78029-dfd1-3434-bad2-5f13bd9af045
+[14:40:10] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|UpdateCert-1.8
+[14:40:10] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FML
+[14:40:10] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: EAG|Skins-1.8
+[14:40:10] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] Ignoring plugin channel in incoming REGISTER: FORGE
+[14:40:10] [Server thread/INFO]: NoodlePie joined the game
+[14:40:10] [Server thread/INFO]: NoodlePie[/[0:0:0:0:0:0:0:1]:58478] logged in with entity id 4265 at ([world]178.5573130796779, 67.0, 201.5)
+[14:40:12] [Server thread/INFO]: Banned miwifruity: Banned by an operator.
+[14:40:12] [Server thread/INFO]: miwifruity lost connection: You are banned from this server
+[14:40:12] [Server thread/INFO]: miwifruity left the game
+[14:40:16] [Server thread/INFO]: NoodlePie lost connection: Disconnected
+[14:40:16] [Server thread/INFO]: NoodlePie left the game
+[14:40:29] [Server thread/INFO]: Zkdoge was slain by bluecherry_
+[14:40:43] [Server thread/INFO]: Stopping server
+[14:40:43] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v3.0.6
+[14:40:43] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[14:40:43] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[14:40:43] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[14:40:43] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[14:40:43] [Server thread/INFO]: Saving players
+[14:40:43] [Server thread/INFO]: bluecherry_ lost connection: Server closed
+[14:40:43] [Server thread/INFO]: bluecherry_ left the game
+[14:40:43] [Server thread/INFO]: Stove16 lost connection: Server closed
+[14:40:43] [Server thread/INFO]: Stove16 left the game
+[14:40:43] [Server thread/INFO]: A_Dude124 lost connection: Server closed
+[14:40:43] [Server thread/INFO]: A_Dude124 left the game
+[14:40:43] [Server thread/INFO]: Zkdoge lost connection: Server closed
+[14:40:43] [Server thread/INFO]: Zkdoge left the game
+[14:40:43] [Server thread/INFO]: Saving worlds
+[14:40:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:40:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:40:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:40:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:40:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:40:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:40:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:40:47] [Server thread/INFO]: Flushing Chunk IO
+[14:40:47] [Server thread/INFO]: Closing Thread Pool
+[14:40:47] [Server thread/INFO]: Closing Server

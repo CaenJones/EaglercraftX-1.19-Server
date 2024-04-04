@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "uuid": "f64351a8-2fc5-3ee6-8809-8542805ea3cc",
+    "name": "miwifruity",
+    "created": "2024-04-04 14:40:12 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "5102e659-7ff3-39a1-b13b-2417fadaef41",
+    "name": "miwifruit",
+    "created": "2024-04-04 14:33:52 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "c706c22d-7a4a-3b42-ad14-c934e67b14d0",
+    "name": "miwi",
+    "created": "2024-04-04 14:30:52 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

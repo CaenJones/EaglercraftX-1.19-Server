@@ -1,0 +1,23 @@
+{
+	"repositoryFolder": "BASEDIR/eaglercraftx",
+	"modCoderPack": "/tmp/mcp918.zip",
+	"minecraftJar": "/tmp/1.8.8.jar",
+	"assetsIndex": "/tmp/1.8.json",
+	"outputDirectory": "/tmp/output",
+	"temporaryDirectory": "/tmp/##EAGLER.TEMP##",
+	"ffmpeg": "ffmpeg",
+	"productionIndex": "BASEDIR/eaglercraftx/buildtools/production-index-ext.html",
+	"productionFavicon": "BASEDIR/eaglercraftx/buildtools/production-favicon.png",
+	"addScripts": [
+		"eaglercraft_opts.js"
+	],
+	"removeScripts": [],
+	"injectInOffline": [],
+	"mavenURL": "https://repo1.maven.org/maven2/",
+	"mavenLocal": "/tmp/teavm",
+	"generateOfflineDownload": true,
+	"offlineDownloadTemplate": "BASEDIR/eaglercraftx/sources/setup/workspace_template/javascript/OfflineDownloadTemplate.txt",
+	"keepTemporaryFiles": false,
+	"writeSourceMap": true,
+	"minifying": true
+}

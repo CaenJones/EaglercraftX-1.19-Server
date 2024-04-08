@@ -24,16 +24,16 @@ Now, we need to clone the server repo using `git`. Please run the following comm
 `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
 <br>
 <br>
-Now, open 2 terminal tabs in the new server directory and paste in the following snipits:
+Now, open 2 terminal tabs in the new server directory and paste in the following snipits (updated for logj4 patch):
 <br>
 <br>
-first tab: `cd server && sudo java -jar server.jar`
+first tab: `cd server && java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar server.jar`
 <br>
 <br>
 You may need to edit the EULA.txt and change a value to `true` before running the next command:
 <br>
 <br>
-second tab: `cd bungee && sudo java -jar bungee.jar`
+second tab: `cd bungee && java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar bungee.jar`
 <br>
 <br>
 ## Making Server Public

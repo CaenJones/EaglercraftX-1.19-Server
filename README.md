@@ -8,7 +8,7 @@ This server is a modified version of the original 1.8.8 eaglercraft server suppo
 This project was made by `@CaenJones` and `@DerpLord3264` with thanks to the original eaglercraft developers.
 
 ## System Setup (Linux)
-After installation of the server it is important to edit `server.properties` and take the config out of online more by setting it to `false` this way players can connect to the server without an official mojang client 🙂
+After installation of the server you may have to edit `server.properties` and take the config out of online more by setting it to `false` this way players can connect to the server without an official mojang client 🙂
 <br>
 <br>
 For this tutorial, we will be using Ubuntu 22.04 LTS. First of all, java is required to run bungeecord and the server file. To do this, we will need to run the following commands:

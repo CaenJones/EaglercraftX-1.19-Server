@@ -27,7 +27,7 @@
 						worldsDB: "worlds",
 						logInvalidCerts: true,
 						servers: [
-							{ addr: "wss://localhost:8081/", name: "EaglercraftX 1.19 Server" }
+							{ addr: "ws" + window.location.href.slice(4), name: "EaglercraftX  1.19 Server" }
 						],
 						relays: [
 							{ addr: "wss://relay.deev.is/", comment: "lax1dude relay #1", primary: relayId == 0 },

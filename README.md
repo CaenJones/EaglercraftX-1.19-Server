@@ -36,6 +36,15 @@ second tab (bungee folder): `java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G
 ## Making Server Public
 Great! Now, you need to forward ports  `8081` and `25565` and navigate to your servers public ip `[server-ip:8081]`. The server welcome page should be displayed. Congrats on running your own server!
 
+## Update Guide
+Now, we still need to clone the server repo using `git`. Please run the following command:
+<br>
+<br>
+`git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
+<br>
+<br>
+then we just go into your pre-existing server folder and copy the `world` folder from the old `/server/world` into the new one. Then just run the `server.jar ` and `bungee.jar` files like normal and the chunks should be automatically updated!
+
 ## Installing Plugins
 In order to install plugins, navigate to `server > plugins` and `bungee > plugins`. You will need to clone the initial [plugin-name.jar] file as well as creating a separate directory in the plugins folder in order to store the additional data. Then just restart the server and the plugin should be running!
 

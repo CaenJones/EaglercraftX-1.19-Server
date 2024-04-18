@@ -16,7 +16,7 @@ Now, we still need to clone the server repo using `git`. Please run the followin
 <br>
 then we just go into your pre-existing server folder and copy the `world` folder from the old `/server/world` into the new one. Then just run the `server.jar ` and `bungee.jar` files like normal and the chunks should be automatically updated!
 
-## System Setup (Linux)
+## Clean Install Guide (Linux + Windows)
 For this tutorial, we will be using Ubuntu 22.04 LTS. First of all, java is required to run bungeecord and the server file. To do this, we will need to run the following commands:
 <br>
 <br>

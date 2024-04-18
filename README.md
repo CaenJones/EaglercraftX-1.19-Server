@@ -24,17 +24,17 @@ Now, we need to clone the server repo using `git`. Please run the following comm
 Now, open 2 terminal tabs in the new server directory and paste in the following snipits (updated for logj4 patch):
 <br>
 <br>
-first tab: `cd server && java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar server.jar`
+first tab (server folder): `java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar server.jar`
 <br>
 <br>
 You may need to edit the EULA.txt and change a value to `true` before running the next command:
 <br>
 <br>
-second tab: `cd bungee && java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar bungee.jar`
+second tab (bungee folder): `java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar bungee.jar`
 <br>
 <br>
 ## Making Server Public
-Great! Now, you need to forward ports  `8081` and `25565` and navigate to your servers public ip [server-ip:8081]. The server welcome page should be displayed. Congrats on running your own server!
+Great! Now, you need to forward ports  `8081` and `25565` and navigate to your servers public ip `[server-ip:8081]`. The server welcome page should be displayed. Congrats on running your own server!
 
 ## Installing Plugins
 In order to install plugins, navigate to `server > plugins` and `bungee > plugins`. You will need to clone the initial [plugin-name.jar] file as well as creating a separate directory in the plugins folder in order to store the additional data. Then just restart the server and the plugin should be running!

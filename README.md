@@ -3,9 +3,6 @@
 
 ## Introduction
 This server is a modified version of the original 1.8.8 eaglercraft server supporting some functionality of minecraft 1.19 please note that some mobs and textures may be missing from the game.
-<br>
-<br>
-This project was made by `@CaenJones` and `@DerpLord3264` with thanks to the original eaglercraft developers.
 
 ## Update Guide For Pre-Existing Servers
 Now, we still need to clone the server repo using `git`. Please run the following command:

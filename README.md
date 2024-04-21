@@ -31,9 +31,6 @@ Now we can start Eaglercraft! open 2 terminal tabs in the server repository fold
 first tab (to start server): `./server/server.sh`
 <br>
 <br>
-You may need to edit the `server/EULA.txt` and change the tos value to `true` before running the next command:
-<br>
-<br>
 second tab (to start bungeecord): `./bungee/bungee.sh`
 <br>
 <br>

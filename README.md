@@ -20,23 +20,21 @@ For this tutorial, we will be using Ubuntu 22.04 LTS. First of all, java is requ
 `sudo apt install default-jdk && sudo apt install default-jre -y`
 <br>
 <br>
-### Running The Server
 Now, we need to clone the server repo using `git`. Please run the following command:
 <br>
 <br>
 `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
+### Running The Server
+Now we can start Eaglercraft! open 2 terminal tabs in the server repository folder and paste in the following snipits (updated for logj4 patch). The server will also automatically restart in the event of a crash:
 <br>
 <br>
-Now, open 2 terminal tabs in the new server directory and paste in the following snipits (updated for logj4 patch):
+first tab (to start server): `./server/server.sh`
 <br>
 <br>
-first tab (server folder): `java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar server.jar`
+You may need to edit the `server/EULA.txt` and change a value to `true` before running the next command:
 <br>
 <br>
-You may need to edit the EULA.txt and change a value to `true` before running the next command:
-<br>
-<br>
-second tab (bungee folder): `java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar bungee.jar`
+second tab (to start bungeecord): `./bungee/bungee.sh`
 <br>
 <br>
 ### Making Server Public

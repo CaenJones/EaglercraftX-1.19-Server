@@ -1,4 +1,5 @@
 
+
 # EaglercraftX 1.19 Server
 [demo.webm](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)
 
@@ -65,10 +66,19 @@ first tab (to start server): `./server/server.sh`
 second tab (to start bungeecord): `./bungee/bungee.sh`
 <br>
 <br>
-### Making Server Public
-Great! Now, you need to forward ports  `8081` and `25565` and navigate to your servers public ip `[server-ip:8081]`. The server welcome page should be displayed. Congrats on running your own server!
 
-### Installing Plugins
+## Running The Server (Windows Version)
+A new (batchfile) script has been created to allow the same auto start/stop functionality on the linux version. Here is how to start them:
+<br>
+<br>
+First, navigate to your servers `/server/server.bat` and double click on the file, a command line window should popup showing the status.
+<br>
+<br>
+Second, go to the `bungee/bungee.bat` folder and run that file as well to start bungeecord. Now your server should be up and running!
+## Making Server Public
+Next, you need to forward ports  `8081` and `25565` and navigate to your servers public ip `[server-ip:8081]`. The server welcome page should be displayed. Congrats on running your own server!
+
+## Installing Plugins
 In order to install plugins, navigate to `server > plugins` and `bungee > plugins`. You will need to clone the initial [plugin-name.jar] file as well as creating a separate directory in the plugins folder in order to store the additional data. Then just restart the server and the plugin should be running!
 
 ## FAQ

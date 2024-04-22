@@ -5,7 +5,7 @@
 EaglercraftX 1.19 Server is an enhanced version of the original Eaglercraft server, incorporating features from Minecraft 1.19. Note that some mobs and textures may be absent.
 
 ## Requirements
-- **Minimum:** Runs on any system, including Raspberry Pi 4.
+- **Minimum:** Runs on just about any system.
 - **Recommended:** 4GB DDR4 RAM, 4-core x64 CPU, over 5GB free storage, and network speeds of 750 MBPS or higher for optimal performance.
 
 ## Updating Existing Servers

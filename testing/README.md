@@ -1,7 +1,3 @@
-# Testing Diretory 
-This folder serves as a home for concepts or unfinished projects on the EaglercraftX 1.19 server. Each project is seperated into a different folder with different levels of completion. Here is a handy guide for you below:
-<br>
-<br>
 Status Key:
 <br>
 ✔️ | project completed awating merge
@@ -13,5 +9,10 @@ Status Key:
 ❎ | Project is abandoned or unfixed
 <br>
 <br>
+| Status | Folder       | Info                                                |
+|--------|--------------|-----------------------------------------------------|
+| ✅      | `/linux`     | Autoinstall and autorun scripts for linux systems   |
+| ✅      | `/windows`   | Autoinstall and autorun scripts for windows systems |
+| ❎      | `/dashboard` | Web dashboard and console for server control        |
 
 

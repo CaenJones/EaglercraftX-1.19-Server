@@ -10,7 +10,7 @@ set /p startServer=
 
 if /I "%startServer%"=="y" (
     echo Starting server...
-    start /B server\server.bat
+    start /B server\server\server.bat
     start /B server\bungee\bungee.bat
 ) else if /I "%startServer%"=="n" (
     echo Use server\server.bat to start server!

@@ -1,3 +1,4 @@
+
 # EaglercraftX 1.19 Server
 [demo.webm](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)
 
@@ -5,15 +6,21 @@
 This server is a modified version of the original 1.8.8 eaglercraft server supporting some functionality of minecraft 1.19 please note that some mobs and textures may be missing from the game.
 
 ## Update Guide For Pre-Existing Servers
-Now, we still need to clone the server repo using `git`. Please run the following command:
+First, we still need to clone the server repo using `git`. Please run the following command:
 <br>
 <br>
 `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
 <br>
 <br>
+It is also possible to use cURL on windows systems to download the source folder from github:
+<br>
+<br>
+`curl -O https://github.com/CaenJones/EaglercraftX-1.19-Server/archive/refs/heads/main.zip`
+<br>
+<br>
 then we just go into your pre-existing server folder and copy the `world` folder from the old `/server/world` into the new one. Then just run the `server.jar ` and `bungee.jar` files like normal and the chunks should be automatically updated!
 
-## Clean Install Guide (Linux + Windows)
+## Clean Install Guide (Linux Version)
 For this tutorial, we will be using Ubuntu 22.04 LTS. First of all, java is required to run bungeecord and the server file. To do this, we will need to run the following commands:
 <br>
 <br>
@@ -24,6 +31,30 @@ Now, we need to clone the server repo using `git`. Please run the following comm
 <br>
 <br>
 `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
+
+## Clean Install Guide (Windows Version)
+It is now possible to install the Eaglercraft 1.19 server on window systems through the following steps:
+
+### Installing the JRE and JDK
+1.  **Download the JDK Installer:**
+    -   Go to the [Java SE Downloads](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) page.
+    -   Click on "Accept License Agreement."
+    -   Under the "Download" menu, select the `.exe` file that matches your version of Windows 
+
+1.  **Download the JRE Installer:**
+    -   Visit the [Oracle Java SE Advanced & Suite Products](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) page.
+    -   Click on "Accept License Agreement."
+    -   Under the "Download" menu, select the `.exe` file that corresponds to your version of Windows [1](https://docs.oracle.com/javacomponents/msi-jre/install-guide/installing-jre-command-line.htm).
+
+2.  **Install the JRE:**
+    -   Locate the downloaded `.exe` file in your downloads folder.
+    -   Double-click the installer file to start the installation process.
+    -   Follow the on-screen instructions to complete the installation. This typically involves accepting the license agreement, choosing the installation directory, and clicking through the installation wizard [1](https://docs.oracle.com/javacomponents/msi-jre/install-guide/installing-jre-command-line.htm).
+
+2.  **Install the JDK:**
+    -   Locate the downloaded `.exe` file in your downloads folder.
+    -   Double-click the installer file to start the installation process.
+    -   Follow the on-screen instructions to complete the installation. This typically involves accepting the license agreement, ch
 ### Running The Server
 Now we can start Eaglercraft! open 2 terminal tabs in the server repository folder and paste in the following snipits (updated for logj4 patch). The server will also automatically restart in the event of a crash:
 <br>

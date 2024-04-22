@@ -41,7 +41,7 @@ Now, we need to clone the server repo using `git`. Please run the following comm
 <br>
 `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
 
-## Clean Install Guide (Windows Version)
+## Clean Install Guide (Windows Beta)
 It is also possible to install the Eaglercraft 1.19 server on window systems the same dependancies are needed from the linux setup although there is a different way of going about installing them:
 
 ### Installing the JRE and JDK
@@ -76,7 +76,7 @@ second tab (to start bungeecord) (`chmod +x` needs to be used first): `./bungee/
 <br>
 <br>
 
-## Running The Server (Windows Version)
+## Running The Server (Windows Beta)
 A new (batchfile) script has been created to allow the same auto start/stop functionality on the linux version. Here is how to start them:
 <br>
 <br>

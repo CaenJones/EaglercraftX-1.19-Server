@@ -61,10 +61,10 @@ It is also possible to install the Eaglercraft 1.19 server on window systems the
 Now we can start Eaglercraft! open 2 terminal tabs in the server repository folder and paste in the following snipits (updated for logj4 patch). The server will also automatically restart in the event of a crash:
 <br>
 <br>
-first tab (to start server): `./server/server.sh`
+first tab (to start server) (`chmod +x` needs to be used first): `./server/server.sh`
 <br>
 <br>
-second tab (to start bungeecord): `./bungee/bungee.sh`
+second tab (to start bungeecord) (`chmod +x` needs to be used first): `./bungee/bungee.sh`
 <br>
 <br>
 

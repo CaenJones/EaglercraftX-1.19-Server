@@ -1,16 +1,6 @@
 @echo off
-
-:: Assuming git, curl, and JRE/JDK are already installed
-
-:: Clone the repository
 git clone https://github.com/CaenJones/EaglercraftX-1.19-Server
-
-:: Rename the directory
 ren EaglercraftX-1.19-Server server
-
-:: Assuming server.bat and bungee.bat are already present in the server and bungee directories
-
-:: Prompt the user to start the server
 echo Repo Installed! Start Server? (y/n)
 set /p startServer=
 

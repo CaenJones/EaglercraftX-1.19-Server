@@ -1,105 +1,50 @@
+# EaglercraftX 1.19 Server Overview
+[Demo Video](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)
 
+## Overview
+EaglercraftX 1.19 Server is an enhanced version of the original Eaglercraft server, incorporating features from Minecraft 1.19. Note that some mobs and textures may be absent.
 
-# EaglercraftX 1.19 Server
-[demo.webm](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)
+## Requirements
+- **Minimum:** Runs on any system, including Raspberry Pi 4.
+- **Recommended:** 4GB DDR4 RAM, 4-core x64 CPU, over 5GB free storage, and network speeds of 750 MBPS or higher for optimal performance.
 
-## Introduction
-This server is a modified version of the original 1.8.8 eaglercraft server supporting some functionality of minecraft 1.19 please note that some mobs and textures may be missing from the game.
+## Updating Existing Servers
+1. Clone the server repository: `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
+2. Alternatively, use cURL on Windows: `curl -O https://github.com/CaenJones/EaglercraftX-1.19-Server/archive/refs/heads/main.zip`
+3. Copy the `world` folder from the old server to the new one.
+4. Run `server.jar` and `bungee.jar` to update chunks automatically.
 
-## System Requirements 
-Eaglercraft can run on just about anything. I personally run it on my raspberry pi 4 at home. However, to achieve optimal performance a system meeting or exceeding these specifications is recommended:
+## Autoinstall Scripts
+Scripts for easy server setup on Windows and Linux are in development at the moment. They will be in the next release.
 
- - 4gb DDR4 RAM
- - 4 core x64 CPU
- - Greater than 5GB of free storage
- - Constant 750 MBPS network transfer speeds or greater
+## Installation Guides
+### Linux
+1. Install Java: `sudo apt install default-jdk && sudo apt install default-jre -y`
+2. Clone the server repository: `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
 
-## Update Guide For Pre-Existing Servers
-First, we still need to clone the server repo using `git`. Please run the following command:
-<br>
-<br>
-`git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
-<br>
-<br>
-It is also possible to use cURL on windows systems to download the source folder from github (extract needed):
-<br>
-<br>
-`curl -O https://github.com/CaenJones/EaglercraftX-1.19-Server/archive/refs/heads/main.zip`
-<br>
-<br>
-then we just go into your pre-existing server folder and copy the `world` folder from the old `/server/world` into the new one. Then just run the `server.jar ` and `bungee.jar` files like normal and the chunks should be automatically updated!
+### Windows
+1. Download and install JDK and JRE from the official Java website.
+2. Clone the server repository: `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
 
-## Autoinstall Scripts (Coming Soon)
-Scripts for Windows and Linux machines to automatically run and create EaglercraftX 1.19 servers. This brings greater ease of use and operability to the project. You can now view the current progress in the `/testing` folder and the official release is coming soon!
+## Running the Server
+### Linux
+- Start server: `./server/server.sh` (use `chmod +x` first)
+- Start BungeeCord: `./bungee/bungee.sh` (use `chmod +x` first)
 
-## Clean Install Guide (Linux Version)
-For this tutorial, we will be using Ubuntu 22.04 LTS. First of all, java is required to run bungeecord and the server file. To do this, we will need to run the following commands:
-<br>
-<br>
-`sudo apt install default-jdk && sudo apt install default-jre -y`
-<br>
-<br>
-Now, we need to clone the server repo using `git`. Please run the following command:
-<br>
-<br>
-`git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
+### Windows
+- Run `/server/server.bat`
+- Run `/bungee/bungee.bat`
 
-## Clean Install Guide (Windows Beta)
-It is also possible to install the Eaglercraft 1.19 server on window systems the same dependancies are needed from the linux setup although there is a different way of going about installing them:
+## Making the Server Public
+Forward ports 8081 and 25565, then access your server at `[server-ip:8081]`.
 
-### Installing the JRE and JDK
-1.  **Download the JDK Installer:**
-    -   Go to the [Java SE Downloads](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) page.
-    -   Click on "Accept License Agreement."
-    -   Under the "Download" menu, select the `.exe` file that matches your version of Windows 
-
-1.  **Download the JRE Installer:**
-    -   Visit the [Oracle Java SE Advanced & Suite Products](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) page.
-    -   Click on "Accept License Agreement."
-    -   Under the "Download" menu, select the `.exe` file that corresponds to your version of Windows
-
-2.  **Install the JRE:**
-    -   Locate the downloaded `.exe` file in your downloads folder.
-    -   Double-click the installer file to start the installation process.
-    -   Follow the on-screen instructions to complete the installation. 
-
-2.  **Install the JDK:**
-    -   Locate the downloaded `.exe` file in your downloads folder.
-    -   Double-click the installer file to start the installation process.
-    -   Follow the on-screen instructions to complete the installation.
-      
-## Running The Server (Linux Version)
-Now we can start Eaglercraft! open 2 terminal tabs in the server repository folder and paste in the following snipits (updated for logj4 patch). The server will also automatically restart in the event of a crash:
-<br>
-<br>
-first tab (to start server) (`chmod +x` needs to be used first): `./server/server.sh`
-<br>
-<br>
-second tab (to start bungeecord) (`chmod +x` needs to be used first): `./bungee/bungee.sh`
-<br>
-<br>
-
-## Running The Server (Windows Beta)
-A new (batchfile) script has been created to allow the same auto start/stop functionality on the linux version. Here is how to start them:
-<br>
-<br>
-First, navigate to your servers `/server/server.bat` and double click on the file, a command line window should popup showing the status.
-<br>
-<br>
-Second, go to the `/bungee/bungee.bat` folder and run that file as well to start bungeecord. Now your server should be up and running!
-
-## Making Server Public
-Next, you need to forward ports  `8081` and `25565` and navigate to your servers public ip `[server-ip:8081]`. The server welcome page should be displayed. Congrats on running your own server!
-
-## Installing Plugins
-In order to install plugins, navigate to `server > plugins` and `bungee > plugins`. You will need to clone the initial [plugin-name.jar] file as well as creating a separate directory in the plugins folder in order to store the additional data. Then just restart the server and the plugin should be running!
+## Plugin Installation
+- Navigate to `server/plugins` and `bungee/plugins`.
+- Clone the plugin `.jar` file and create a separate directory for additional data.
+- Restart the server to activate the plugin.
 
 ## FAQ
-### Can I still find and craft 1.19 items?
-Yes, you are able to mine ores like netherite and craft things like shields. The items will act normally, however the textures may not match.
-### What about mobs? Will they still behave normally?
-Yes, most mobs have been matched to their closest prexisting characters or models with a nametag identifier. Their drops and stats will remain by the 1.19 standard.
-### Can I find new naturally generated structures?
-Yes although they may not have matching blocks or layouts.
-### Will there continue to be updates?
-Hell yeah!
+- **Can I find and craft 1.19 items?** Yes, with normal item behavior but potentially different textures.
+- **Will mobs behave normally?** Most mobs are matched to their closest pre-existing characters or models, with standard drops and stats.
+- **Can I find new structures?** Yes, though they may not match the blocks or layouts of 1.19.
+- **Will there be updates?** Yes, updates will continue.

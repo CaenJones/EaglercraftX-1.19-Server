@@ -12,7 +12,7 @@ Eaglercraft can run on just about anything. I personally run it on my raspberry 
  - 4gb DDR4 RAM
  - 4 core x64 CPU
  - Greater than 5GB of free storage
- - Constant 1500 MBPS network transfer speeds or greater
+ - Constant 750 MBPS network transfer speeds or greater
 
 ## Update Guide For Pre-Existing Servers
 First, we still need to clone the server repo using `git`. Please run the following command:

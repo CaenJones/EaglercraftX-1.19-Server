@@ -24,7 +24,7 @@ Scripts for easy server setup on Windows and Linux are in development at the mom
 
 ### Windows
 1. Download and install JDK and JRE from the official Java website.
-2. Clone the server repository: `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
+2. cURL the server repository: `curl -O https://github.com/CaenJones/EaglercraftX-1.19-Server/archive/refs/heads/main.zip`
 
 ## Running the Server
 ### Linux

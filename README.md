@@ -12,7 +12,7 @@ First, we still need to clone the server repo using `git`. Please run the follow
 `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
 <br>
 <br>
-It is also possible to use cURL on windows systems to download the source folder from github:
+It is also possible to use cURL on windows systems to download the source folder from github (extract needed):
 <br>
 <br>
 `curl -O https://github.com/CaenJones/EaglercraftX-1.19-Server/archive/refs/heads/main.zip`

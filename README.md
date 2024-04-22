@@ -74,7 +74,8 @@ A new (batchfile) script has been created to allow the same auto start/stop func
 First, navigate to your servers `/server/server.bat` and double click on the file, a command line window should popup showing the status.
 <br>
 <br>
-Second, go to the `bungee/bungee.bat` folder and run that file as well to start bungeecord. Now your server should be up and running!
+Second, go to the `/bungee/bungee.bat` folder and run that file as well to start bungeecord. Now your server should be up and running!
+
 ## Making Server Public
 Next, you need to forward ports  `8081` and `25565` and navigate to your servers public ip `[server-ip:8081]`. The server welcome page should be displayed. Congrats on running your own server!
 

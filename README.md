@@ -6,6 +6,14 @@
 ## Introduction
 This server is a modified version of the original 1.8.8 eaglercraft server supporting some functionality of minecraft 1.19 please note that some mobs and textures may be missing from the game.
 
+## System Requirements 
+Eaglercraft can run on just about anything. I personally run it on my raspberry pi 4 at home. However, to achieve optimal performance a system meeting or exceeding these specifications is recommended:
+
+ - 4gb DDR4 RAM
+ - 4 core x64 CPU
+ - Greater than 5GB of free storage
+ - Constant 1500 MBPS network transfer speeds or greater
+
 ## Update Guide For Pre-Existing Servers
 First, we still need to clone the server repo using `git`. Please run the following command:
 <br>

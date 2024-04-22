@@ -29,6 +29,9 @@ It is also possible to use cURL on windows systems to download the source folder
 <br>
 then we just go into your pre-existing server folder and copy the `world` folder from the old `/server/world` into the new one. Then just run the `server.jar ` and `bungee.jar` files like normal and the chunks should be automatically updated!
 
+## Autoinstall Scripts (Coming Soon)
+Scripts for Windows and Linux machines to automatically run and create EaglercraftX 1.19 servers. This brings greater ease of use and operability to the project. You can now view the current progress in the `/testing` folder and the official release is coming soon!
+
 ## Clean Install Guide (Linux Version)
 For this tutorial, we will be using Ubuntu 22.04 LTS. First of all, java is required to run bungeecord and the server file. To do this, we will need to run the following commands:
 <br>

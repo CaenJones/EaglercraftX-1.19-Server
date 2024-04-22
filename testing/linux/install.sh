@@ -12,6 +12,8 @@ read startServer
 
 if [ "$startServer" = "y" ]; then
     echo "Starting server..."
+    chmod +x server/server/server.sh
+    chmod +x server/bungee/bungee.sh
     ./server/server/server.sh &
     ./server/bungee/bungee.sh &
 elif [ "$startServer" = "n" ]; then

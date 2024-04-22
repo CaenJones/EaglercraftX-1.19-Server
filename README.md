@@ -33,7 +33,7 @@ Now, we need to clone the server repo using `git`. Please run the following comm
 `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
 
 ## Clean Install Guide (Windows Version)
-It is now possible to install the Eaglercraft 1.19 server on window systems through the following steps:
+It is also possible to install the Eaglercraft 1.19 server on window systems the same dependancies are needed from the linux setup although there is a different way of going about installing them:
 
 ### Installing the JRE and JDK
 1.  **Download the JDK Installer:**
@@ -44,7 +44,7 @@ It is now possible to install the Eaglercraft 1.19 server on window systems thro
 1.  **Download the JRE Installer:**
     -   Visit the [Oracle Java SE Advanced & Suite Products](https://www.oracle.com/java/technologies/javase-jre8-downloads.html) page.
     -   Click on "Accept License Agreement."
-    -   Under the "Download" menu, select the `.exe` file that corresponds to your version of Windows [1](https://docs.oracle.com/javacomponents/msi-jre/install-guide/installing-jre-command-line.htm).
+    -   Under the "Download" menu, select the `.exe` file that corresponds to your version of Windows
 
 2.  **Install the JRE:**
     -   Locate the downloaded `.exe` file in your downloads folder.
@@ -55,7 +55,7 @@ It is now possible to install the Eaglercraft 1.19 server on window systems thro
     -   Locate the downloaded `.exe` file in your downloads folder.
     -   Double-click the installer file to start the installation process.
     -   Follow the on-screen instructions to complete the installation. This typically involves accepting the license agreement, ch
-### Running The Server
+## Running The Server (Linux Version)
 Now we can start Eaglercraft! open 2 terminal tabs in the server repository folder and paste in the following snipits (updated for logj4 patch). The server will also automatically restart in the event of a crash:
 <br>
 <br>

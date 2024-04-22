@@ -4,6 +4,8 @@ sudo apt update
 sudo apt install git curl default-jre default-jdk -y
 git clone https://github.com/CaenJones/EaglercraftX-1.19-Server
 mv EaglercraftX-1.19-Server server
+chmod +x server/server/server.sh
+chmod +x server/bungee/bungee.sh
 
 echo "Repo Installed! Start Server? (y/n)"
 read startServer

@@ -1,8 +1,7 @@
 # EaglercraftX 1.19 Server Overview
 [Demo Video](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)
-<br>
-![Image 1](https://github.com/CaenJones/EaglercraftX-1.19-Server/blob/main/.github/assets/1.png) ![Image 2](https://github.com/CaenJones/EaglercraftX-1.19-Server/blob/main/.github/assets/2.png)
 
+![Image 1](https://github.com/CaenJones/EaglercraftX-1.19-Server/blob/main/.github/assets/1.png) ![Image 2](https://github.com/CaenJones/EaglercraftX-1.19-Server/blob/main/.github/assets/2.png)
 
 ## Overview
 EaglercraftX 1.19 Server is an enhanced version of the original Eaglercraft server, incorporating features from Minecraft 1.19. Note that some mobs and textures may be absent.

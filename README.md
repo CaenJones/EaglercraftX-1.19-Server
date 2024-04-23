@@ -27,7 +27,7 @@ Hello! The EaglercraftX 1.19 server project is an enhanced version of the origin
 4. Run `server.jar` and `bungee.jar` to update chunks automatically.
 
 ## Running the Server
-### Linux
+### Linux & MacOS
 - Start server: `./server/server.sh` (use `chmod +x` first)
 - Start BungeeCord: `./bungee/bungee.sh` (use `chmod +x` first)
 

@@ -22,7 +22,7 @@ Hello! The EaglercraftX 1.19 server project is an enhanced version of the origin
 
 ## Updating Existing Servers
 1. Clone the server repository: `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
-2. Alternatively, use cURL on Windows: `curl -O https://github.com/CaenJones/EaglercraftX-1.19-Server/archive/refs/heads/main.zip`
+2. Use cURL for Windows: `curl -O https://github.com/CaenJones/EaglercraftX-1.19-Server/archive/refs/heads/main.zip`
 3. Copy the `world` folder from the old server to the new one.
 4. Run `server.jar` and `bungee.jar` to update chunks automatically.
 

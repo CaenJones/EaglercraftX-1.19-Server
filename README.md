@@ -1,12 +1,10 @@
-# EaglercraftX 1.19 Server Overview
+# EaglercraftX 1.19 Server 
 [Demo Video](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)
 
 <p align="center">
  <img src="https://github.com/garlontas/buttons/blob/main/buttons/200x59/linux-download_2.svg" alt="Description here" width="200" height="59">
  <img src="https://raw.githubusercontent.com/garlontas/buttons/main/buttons/200x59/windows-download.svg" alt="Description here" width="200" height="59">
 </p>
-
-
 
 ## Overview
 EaglercraftX 1.19 Server is an enhanced version of the original Eaglercraft server, incorporating features from Minecraft 1.19. Note that some mobs and textures may be absent.
@@ -20,18 +18,6 @@ EaglercraftX 1.19 Server is an enhanced version of the original Eaglercraft serv
 2. Alternatively, use cURL on Windows: `curl -O https://github.com/CaenJones/EaglercraftX-1.19-Server/archive/refs/heads/main.zip`
 3. Copy the `world` folder from the old server to the new one.
 4. Run `server.jar` and `bungee.jar` to update chunks automatically.
-
-## Autoinstall Scripts
-Scripts for easy server setup on Windows and Linux are in development at the moment. They will be in the next release.
-
-## Installation Guides
-### Linux
-1. Install Java: `sudo apt install default-jdk && sudo apt install default-jre -y`
-2. Clone the server repository: `git clone https://github.com/CaenJones/EaglercraftX-1.19-Server`
-
-### Windows
-1. Download and install JDK and JRE from the official Java website.
-2. cURL the server repository: `curl -O https://github.com/CaenJones/EaglercraftX-1.19-Server/archive/refs/heads/main.zip`
 
 ## Running the Server
 ### Linux

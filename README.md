@@ -1,8 +1,8 @@
 # EaglercraftX 1.19 Server Overview
 [Demo Video](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)
 
-[![Description here](https://raw.githubusercontent.com/garlontas/buttons/main/buttons/1024x300/linux-download.svg)](<Your Link here>)
-[![Description here](https://raw.githubusercontent.com/garlontas/buttons/main/buttons/1024x300/windows-download.svg)](<Your Link here>)
+[![Description here](https://raw.githubusercontent.com/garlontas/buttons/main/buttons/200x59/linux-download.svg)](<Your Link here>)
+[![Description here](https://raw.githubusercontent.com/garlontas/buttons/main/buttons/200x59/windows-download.svg)](<Your Link here>)
 
 
 ## Overview

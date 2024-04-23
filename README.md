@@ -29,7 +29,7 @@ Hello! The EaglercraftX 1.19 server project is an enhanced version of the origin
 ## Running the Server
 ### Linux & MacOS
 - Start server: `./server/server.sh` (use `chmod +x` first)
-- Start BungeeCord: `./bungee/bungee.sh` (use `chmod +x` first)
+- Start bungeecord: `./bungee/bungee.sh` (use `chmod +x` first)
 
 ### Windows
 - Run `/server/server.bat` (in Eaglercraft server directory)

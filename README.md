@@ -1,14 +1,8 @@
 # EaglercraftX 1.19 Server Overview
 [Demo Video](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)
 
-download_link(
- link = "https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf",
- button_label = "Download pdf file",
- button_type = "danger",
- has_icon = TRUE,
- icon = "fa fa-save",
- self_contained = FALSE
-)
+[![Description here](https://raw.githubusercontent.com/garlontas/buttons/main/buttons/150x44/macos-download.svg)](<Your Link here>)
+[![Description here](https://raw.githubusercontent.com/garlontas/buttons/main/buttons/150x44/slackware-download.svg)](<Your Link here>)
 
 
 ## Overview

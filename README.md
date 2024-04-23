@@ -5,6 +5,9 @@
  <a href="https://github.com/CaenJones/EaglercraftX-1.19-Server/blob/main/install.sh">
     <img src="https://github.com/garlontas/buttons/blob/main/buttons/200x59/linux-download_2.svg" alt="Description here" width="200" height="59">
  </a>
+ <a href="https://github.com/CaenJones/EaglercraftX-1.19-Server/blob/main/install.sh">
+    <img src="https://raw.githubusercontent.com/garlontas/buttons/main/buttons/200x59/macos-download.svg" alt="Description here" width="200" height="59">
+ </a>
  <a href="https://github.com/CaenJones/EaglercraftX-1.19-Server/blob/main/install.bat">
     <img src="https://raw.githubusercontent.com/garlontas/buttons/main/buttons/200x59/windows-download.svg" alt="Description here" width="200" height="59">
  </a>

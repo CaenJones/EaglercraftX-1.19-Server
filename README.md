@@ -37,8 +37,7 @@ Please download the [installer script](https://github.com/CaenJones/EaglercraftX
 - Run `/server/server.bat` (in Eaglercraft server directory)
 - Run `/bungee/bungee.bat` (in Eaglercraft server directory) 
 
-## Making the Server Public
-Forward ports 8081 and 25565, then access your server at `[server-ip:8081]`.
+Now forward ports 8081 and 25565, then access your server at `[server-ip:8081]`.
 
 ## Plugin Installation
 - Navigate to `server/plugins` and `bungee/plugins`.

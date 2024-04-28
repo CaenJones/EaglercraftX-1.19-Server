@@ -27,7 +27,7 @@ Hello! The EaglercraftX 1.19 server project is an enhanced version of the origin
 4. Run `server.jar` and `bungee.jar` to update chunks automatically.
 
 ## Running the Server
-Please download the [installer script](https://github.com/CaenJones/EaglercraftX-1.19-Server#eaglercraftx-119-server) for your appropriate operating system before procedding to this step.
+Please download the [installer script](https://github.com/CaenJones/EaglercraftX-1.19-Server/tree/main#eaglercraftx-119-server) for your appropriate operating system before procedding to this step.
 
 ### Linux & MacOS
 - Start server: `./server/server.sh` (use `chmod +x` first)

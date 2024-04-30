@@ -39,8 +39,8 @@ Please download the [installer script](https://github.com/CaenJones/EaglercraftX
 
 Now forward ports 8081 and 25565, then access your server at `[server-ip:8081]`.
 
-## Server Not Starting (also post prod)
-If your server is not starting, try deleting the `server/world/session.lock` file and restart it.
+## What to do if Your Server Crashes
+If your server is not starting after a crash, try deleting the `server/world/session.lock` file and restart it.
 
 ## Plugin Installation
 - Navigate to `server/plugins` and `bungee/plugins`.

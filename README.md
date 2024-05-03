@@ -57,6 +57,7 @@ If your server is not starting after a crash, try deleting the `server/world/ses
 - **Will there be updates?** Yes, updates will continue.
 <br>
 <br>
+
 ---
 Project Name: EaglercraftX-1.19-Server
 Author: Caen Jones

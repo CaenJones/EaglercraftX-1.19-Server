@@ -14,7 +14,9 @@
 </p>
 
 ## Overview
-Hello! The EaglercraftX 1.19 server project is an enhanced version of the original Eaglercraft server which incorporates items, mobs, structures, and other properties from Minecraft 1.19. Please note that some mobs and textures may be missing. If you like this project and want to support it, please consider making a fork or giving it a :star:!
+Hello! The EaglercraftX 1.19 server project is an enhanced version of the original Eaglercraft server which incorporates items, mobs, structures, and other properties from Minecraft 1.19. Please note that some mobs and textures may be missing.
+<br>
+If you like this project and want to support it, please consider making a fork or giving it a :star:!
 
 ## Requirements
 - **Minimum:** Runs on just about any system.

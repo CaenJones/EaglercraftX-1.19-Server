@@ -62,4 +62,4 @@ If your server is not starting after a crash, try deleting the `server/world/ses
 Project Name: EaglercraftX-1.19-Server
 Author: Caen Jones
 Project Tags: eagler, eaglercraft, eaglercraftx, eaglercraft server, eaglercraftx server
----
+

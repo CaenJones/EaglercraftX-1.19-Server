@@ -1,10 +1,3 @@
----
-title: EaglercraftX-1.19-Server
-author: Caen Jones
-tags: eagler, eaglercraft, eaglercraftx, eaglercraft server, eaglercraftx server
----
-
-
 # EaglercraftX 1.19 Server 
 [Demo Video](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)
 
@@ -62,3 +55,10 @@ If your server is not starting after a crash, try deleting the `server/world/ses
 - **Will mobs behave normally?** Most mobs are matched to their closest pre-existing characters or models, with standard drops and stats.
 - **Can I find new structures?** Yes, though they may not match the blocks or layouts of 1.19.
 - **Will there be updates?** Yes, updates will continue.
+<br>
+<br>
+---
+Project Name: EaglercraftX-1.19-Server
+Author: Caen Jones
+Project Tags: eagler, eaglercraft, eaglercraftx, eaglercraft server, eaglercraftx server
+---

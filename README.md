@@ -3,7 +3,7 @@
   Description: A 1.19 Eaglercraft / EaglercraftX server project!
   Author: CaenJones
   -->
-<meta name='keywords' content='regex, regular expressions, regexp'>
+<meta name='eaglercraft, eaglercraftx, eagler, eaglercraftx server, eaglercraft server' content='HTML, JavaScript, Shell, Batchfile'>
 
 # EaglercraftX 1.19 Server 
 [Demo Video](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)

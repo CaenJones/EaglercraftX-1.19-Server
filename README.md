@@ -1,3 +1,10 @@
+---
+title: EaglercraftX-1.19-Server
+author: Caen Jones
+tags: eagler, eaglercraft, eaglercraftx, eaglercraft server, eaglercraftx server
+---
+
+
 # EaglercraftX 1.19 Server 
 [Demo Video](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)
 

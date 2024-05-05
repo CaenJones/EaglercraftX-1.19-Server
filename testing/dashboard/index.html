@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eaglercraft Server Management</title>
+    <style>
+      .button {
+            width: 200px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+            display: inline-block;
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.5;
+            transition: background-color 0.3s ease;
+        }
+
+      .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Eaglercraft Server Management</h1>
+        <div class="buttons">
+            <button class="button" onclick="banPlayer()">Ban Player</button>
+            <button class="button" onclick="kickPlayer()">Kick Player</button>
+            <button class="button" onclick="restartServer()">Restart Server</button>
+            <button class="button" onclick="startServer()">Start Server</button>
+            <button class="button" onclick="stopServer()">Stop Server</button>
+        </div>
+    </div>
+<script>
+    function banPlayer() {
+        const username = window.prompt("Please enter the username of the player to ban:", "");
+        if (username!== null) {
+            // Perform the ban action with the username
+            alert(`Banning ${username}`);
+            // Example of making an HTTP request to simulate server interaction
+            const Http = new XMLHttpRequest();
+            const url = 'https://example.com/ban'; // Replace with actual API endpoint
+            Http.open("POST", url);
+            Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+            Http.send(JSON.stringify({ username }));
+            Http.onreadystatechange = (e) => {
+                if (Http.readyState === 4 && Http.status === 200) {
+                    alert(`Ban request sent for ${username}`);
+                } else {
+                    alert(`Failed to send ban request for ${username}`);
+                }
+            }
+        }
+    }
+
+    function kickPlayer() {
+        const username = window.prompt("Please enter the username of the player to kick:", "");
+        if (username!== null) {
+            // Perform the kick action with the username
+            alert(`Kicking ${username}`);
+            // Example of making an HTTP request to simulate server interaction
+            const Http = new XMLHttpRequest();
+            const url = 'https://example.com/kick'; // Replace with actual API endpoint
+            Http.open("POST", url);
+            Http.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+            Http.send(JSON.stringify({ username }));
+            Http.onreadystatechange = (e) => {
+                if (Http.readyState === 4 && Http.status === 200) {
+                    alert(`Kick request sent for ${username}`);
+                } else {
+                    alert(`Failed to send kick request for ${username}`);
+                }
+            }
+        }
+    }
+
+    // Placeholder functions for other actions
+    function restartServer() {
+        alert("Restarting server");
+        // Example of making an HTTP request to simulate server interaction
+        const Http = new XMLHttpRequest();
+        const url = 'https://example.com/restart'; // Replace with actual API endpoint
+        Http.open("POST", url);
+        Http.send();
+        Http.onreadystatechange = (e) => {
+            if (Http.readyState === 4 && Http.status === 200) {
+                alert("Server restarted");
+            } else {
+                alert("Failed to restart server");
+            }
+        }
+    }
+
+    function startServer() {
+        alert("Starting server");
+        // Example of making an HTTP request to simulate server interaction
+        const Http = new XMLHttpRequest();
+        const url = 'https://example.com/start'; // Replace with actual API endpoint
+        Http.open("POST", url);
+        Http.send();
+        Http.onreadystatechange = (e) => {
+            if (Http.readyState === 4 && Http.status === 200) {
+                alert("Server started");
+            } else {
+                alert("Failed to start server");
+            }
+        }
+    }
+
+    function stopServer() {
+        alert("Stopping server");
+        // Example of making an HTTP request to simulate server interaction
+        const Http = new XMLHttpRequest();
+        const url = 'https://example.com/stop'; // Replace with actual API endpoint
+        Http.open("POST", url);
+        Http.send();
+        Http.onreadystatechange = (e) => {
+            if (Http.readyState === 4 && Http.status === 200) {
+                alert("Server stopped");
+            } else {
+                alert("Failed to stop server");
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

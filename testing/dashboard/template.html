@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncrash the Burger SMP</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold mb-4">Uncrash Cheeseburger SMP (Testing)</h1>
+
+        <p class="mb-2">Uncrash Anarchy:</p>
+        <button onclick="start()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+            Uncrash
+        </button>
+
+        <script>
+            function start() {
+                alert('doing stuff, please wait')
+                const Http = new XMLHttpRequest();
+                const url = 'https://cors.rare1k.workers.dev/?https://5zmthsr8f22j.share.zrok.io/start';
+                Http.open("GET", url);
+                Http.send();
+                alert('should be done now, please reload your game')
+                Http.onreadystatechange = (e) => {
+                    alert(Http.responseText)
+                }
+            }
+        </script>
+
+        <div class="mt-8">
+            <p>Want to know more about our SMP? Check out our website:</p>
+            <a href="https://www.cheeseburgersmp.lol" class="text-blue-500 font-bold hover:underline">Visit Our Website</a>
+        </div>
+    </div>
+</body>
+</html>

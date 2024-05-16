@@ -1,6 +1,6 @@
 @echo off
 echo Starting Server...
-start /B java -Xmx4G -jar server.jar
+start /B java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar server.jar
 set pid=%errorlevel%
 
 :loop

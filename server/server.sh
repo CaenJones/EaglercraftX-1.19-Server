@@ -1,5 +1,5 @@
 echo "Starting server..."
-java -Xmx4G -jar server.jar
+java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar server.jar
 pid=$!
 ‎
 while true; do

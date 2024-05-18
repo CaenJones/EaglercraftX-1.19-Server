@@ -1,6 +1,6 @@
 @echo off
 echo Starting Bungee...
-start /B java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar bungee.jar
+start /B java -Dlog4j2.formatMsgNoLookups=true -jar bungee.jar
 set pid=%errorlevel%
 
 :loop

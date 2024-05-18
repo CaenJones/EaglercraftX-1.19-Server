@@ -1,5 +1,5 @@
 echo "Starting Bungee..."
-java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar bungee.jar &
+java -Dlog4j2.formatMsgNoLookups=true -jar bungee.jar &
 pid=$!
 ‎
 while true; do

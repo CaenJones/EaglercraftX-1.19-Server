@@ -5,7 +5,7 @@
   -->
 <meta name='eaglercraft, eaglercraftx, eagler, eaglercraftx server, eaglercraft server' content='HTML, JavaScript, Shell, Batchfile'>
 
-# EaglercraftX 1.19 Server 
+# EaglercraftX 1.19 Server (DISCONTINUED) 
 [Demo Video](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)
 
 <p align="center">
@@ -61,4 +61,3 @@ If your server is not starting after a crash, try deleting the `server/world/ses
 - **Can I find and craft 1.19 items?** Yes, with normal item behavior but potentially different textures.
 - **Will mobs behave normally?** Most mobs are matched to their closest pre-existing characters or models, with standard drops and stats.
 - **Can I find new structures?** Yes, though they may not match the blocks or layouts of 1.19.
-- **Will there be updates?** Yes, updates will continue.

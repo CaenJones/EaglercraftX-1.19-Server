@@ -8,7 +8,7 @@
 # EaglercraftX 1.19 Server (DISCONTINUED)
 
 > [!CAUTION]
-> This project has been discontinued as of Aug 18th, 2024. Mod versions and doccumentation may be out of date. Users are encouraged to look for newer fork(s) of this program or update instances independently. 
+> This project has been discontinued as of Aug 28th, 2024. Mod versions and doccumentation may be out of date. Users are encouraged to look for newer fork(s) of this program or update instances independently. 
 
 [Demo Video](https://github.com/CaenJones/EaglercraftX-1.19-Server/assets/131218155/0ee532ab-46d3-4959-ac9a-860931ffd649)
 

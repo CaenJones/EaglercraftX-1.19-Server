@@ -11,7 +11,7 @@ if "%errorlevel%"=="0" (
 ) else (
     echo Detected Bungeecord in crashed/stopped state!
     echo Restarting...
-    start /B java -Dlog4j2.formatMsgNoLookups=true -Xms4G -Xmx4G -jar bungee.jar
+    start /B java -Dlog4j2.formatMsgNoLookups=true -jar bungee.jar
     set pid=%errorlevel%
 )
 goto loop

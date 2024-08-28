@@ -11,7 +11,7 @@ if "%errorlevel%"=="0" (
 ) else (
     echo Detected Server in crashed/stopped state!
     echo Restarting...
-    start /B java -Xmx4G -jar server.jar
+    start /B java -Dlog4j2.formatMsgNoLookups=true -jar server.jar
     set pid=%errorlevel%
 )
 goto loop
